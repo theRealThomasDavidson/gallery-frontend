@@ -1,4 +1,5 @@
-export const AUTH_SERVER_URL = 'http://localhost:5000/auth';
+export const AUTH_SERVER_URL = 'https://auth.thomasdavidson.gallery/auth';
+//export const AUTH_SERVER_URL = 'http://127.0.0.1:5000/auth';
 export const REGISTER_REQUEST = {
     url: `${AUTH_SERVER_URL}/register`,
     method: 'POST',
